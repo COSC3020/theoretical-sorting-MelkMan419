@@ -25,5 +25,4 @@ Vary the size of the input lists from small to large to observe the algorithm's 
 Conclusion:
 Not possible, an algorithm can sort arbitrary elements in O(n) time based on comparisons of two elements at a time contradicts the lower bound of the comparison-based sorting problem.
 Comparison-Based Sorting Lower Bound:
-The comparison-based sorting lower bound establishes that any comparison-based sorting algorithm must perform at least Ω(nlogn) comparisons in the average and worst case to sort n elements.
-This lower bound is based on the decision tree model, which represents the possible comparisons between elements during the sorting process.
+The comparison-based sorting lower bound establishes that any comparison-based sorting algorithm must perform at least $\Omega(nlogn)$ because every comparison based sorting algorithm MUST be able to generate all permuations of a list, the number of which is $n!$. If it doesn't do this, then it cant be sorting correctly. Therefore this algorithm cannot be sorting correctly if it is $O(n)$. 
