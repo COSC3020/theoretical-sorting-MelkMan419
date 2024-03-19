@@ -18,7 +18,7 @@ on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
 
-If this claim was actually true I would expect to see the run time be $O(n)$ for any data set I put in regardless of how it was previously sorted or what they had in them, where n is the number of inputs.
+If this claim was actually true I would expect to see the run time be $O(n)$ for any data set I put in regardless of how it was previously sorted or what they had in them, where n is the number of inputs. So while increasing the size of the lists it sorts, if the amount of time it takes to sort increases linearly with the size of the list, we could infer that it is in fact sorting in linear time.
 
 Verificiation:
 Choose a variety of input lists, including already sorted lists, reverse sorted lists, lists with duplicate elements, random lists, and lists with special patterns.
