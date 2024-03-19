@@ -18,6 +18,8 @@ on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
 
+If this claim was actually true I would expect to see the run time be $O(n)$ for any data set I put in regardless of how it was previously sorted or what they had in them, where n is the number of inputs.
+
 Verificiation:
 Choose a variety of input lists, including already sorted lists, reverse sorted lists, lists with duplicate elements, random lists, and lists with special patterns.
 Vary the size of the input lists from small to large to observe the algorithm's behavior across different scales. Evaluate the algorithm's performance on edge cases, such as extremely large input lists, lists with nearly identical elements, or lists with a specific structure that might challenge the sorting process.
